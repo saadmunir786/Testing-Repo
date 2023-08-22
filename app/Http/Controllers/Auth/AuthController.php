@@ -41,10 +41,8 @@ class AuthController extends Controller
 
     /**
      * Return user if exists; create and return if doesn't
-     *
-     * @return User
      */
-    private function findOrCreateUser($user, $provider)
+    private function findOrCreateUser($user, $provider): User
     {
         $authUser = User::where('provider_id', $user->id)->first();
 
