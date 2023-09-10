@@ -11,9 +11,7 @@
         @method('DELETE')
         @csrf
 
-        <button type="submit" name="submit" class="close text-danger">
-            <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="submit" class="btn-close"></button>
       </form>
     @endcan
   </div>

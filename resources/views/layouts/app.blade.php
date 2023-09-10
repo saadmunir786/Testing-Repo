@@ -19,21 +19,18 @@
     ])
     @stack('inline-scripts')
 </head>
+
 <body class="bg-light">
-    <div id="app">
-        @include('shared/navbar')
+    @include('shared/navbar')
 
-        <div class="container">
-            @include('shared/alerts')
+    <div class="container">
+        @include('shared/alerts')
 
-            <div class="row">
-                <div class="col-md-12">
-                    @yield('content')
-                </div>
-            </div>
-        </div>
-
-        @include('shared/footer')
+        <main>
+            @yield('content')
+        </main>
     </div>
+
+    @include('shared/footer')
 </body>
 </html>
