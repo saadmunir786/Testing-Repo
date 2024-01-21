@@ -18,7 +18,7 @@
         "popper.js": "1.16.1",
         "pusher-js": "7.1.0-beta",
         "trumbowyg": "2.25.1",
-        "vite": "^4.4.9"
+        "vite": "^4.5.2"
     },
     "devDependencies": {
         "eslint": "8.14.0",
